@@ -13,4 +13,4 @@ fs.readdirSync('./Handlers').forEach((h) => {
   require(`./Handlers/${h}`)(client);
 })
 
-client.login("MTI4ODkxODAwMjI1MDY4MjQ4OQ.GKE6H_.Ec5lLqBCKxaXoThI6PHXcrtmmKRVOdMteIBGQ0")
+client.login(process.env.TOKEN);
